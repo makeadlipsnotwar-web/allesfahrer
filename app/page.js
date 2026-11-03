@@ -13,7 +13,8 @@ const CUSTOM_IMAGES = {
   "Arminia Logo Cap": ["/logo cap.jpg"],
   "Jocelyn Hampel T-Shirt": ["/hampel shirt.jpg"],
   "Allesfahrer OG Shirt": ["/og shirt vorne.jpg"],
-  "Allesfahrer OG Kinder-Shirt": ["/og kind vorne.jpg"]
+  "Allesfahrer OG Kinder-Shirt": ["/og kind vorne.jpg"],
+  "FldsF T-Shirt Alternate Design": ["/alternate schwarz v.jpg"]
 };
 
 export default function HomePage() {

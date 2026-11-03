@@ -1,0 +1,1059 @@
+Teste mit Shop-ID: 12238
+[
+  {
+    "id": 29104,
+    "pod_product_id": 187,
+    "title": "FldsF T-Shirt Alternate Design",
+    "description": "<ul><li>180 g/m²</li><li>100 % Baumwolle</li><li>Rundhals mit Rippkragen, Nacken- und Schulterband</li><li>Schlauchförmig gearbeitet, ohne Seitennähte</li><li>Regular Passform (normal geschnitten)</li></ul><p><br></p><p><strong>Größentabelle</strong></p><table style=\"width: 100%;\"><thead><tr><th><p>Messung (Werte) in cm</p></th><th><p>S</p></th><th><p>M</p></th><th><p>L</p></th><th><p>XL</p></th><th><p>2XL</p></th><th><p>3XL</p></th><th><p>4XL</p></th><th><p>5XL</p></th></tr></thead><tbody><tr><td><p>Länge</p></td><td><p>71</p></td><td><p>74</p></td><td><p>76</p></td><td><p>79</p></td><td><p>81</p></td><td><p>84</p></td><td><p>86</p></td><td><p>89</p></td></tr><tr><td><p>Brustweite</p></td><td><p>46</p></td><td><p>51</p></td><td><p>56</p></td><td><p>61</p></td><td><p>66</p></td><td><p>71</p></td><td><p>76</p></td><td><p>81</p></td></tr></tbody></table>",
+    "brand": "Gildan",
+    "tags": [],
+    "main_image": "https://app.dream-print.de/images/mockups/12238/639293063288346087.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+    "variants": [
+      {
+        "id": 901388,
+        "pod_variant_id": 8984,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "5XL",
+        "price": 16.95,
+        "gross_price": 20.17,
+        "image": "https://app.dream-print.de/images/mockups/12238/639293063288346087.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901383,
+        "pod_variant_id": 8981,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "2XL",
+        "price": 16.95,
+        "gross_price": 20.17,
+        "image": "https://app.dream-print.de/images/mockups/12238/639293063288346087.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901385,
+        "pod_variant_id": 8982,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "3XL",
+        "price": 16.95,
+        "gross_price": 20.17,
+        "image": "https://app.dream-print.de/images/mockups/12238/639293063288346087.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": false
+      },
+      {
+        "id": 901375,
+        "pod_variant_id": 8977,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "S",
+        "price": 16.95,
+        "gross_price": 20.17,
+        "image": "https://app.dream-print.de/images/mockups/12238/639293063288346087.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901377,
+        "pod_variant_id": 8978,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "M",
+        "price": 16.95,
+        "gross_price": 20.17,
+        "image": "https://app.dream-print.de/images/mockups/12238/639293063288346087.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901379,
+        "pod_variant_id": 8979,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "L",
+        "price": 16.95,
+        "gross_price": 20.17,
+        "image": "https://app.dream-print.de/images/mockups/12238/639293063288346087.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901381,
+        "pod_variant_id": 8980,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "XL",
+        "price": 16.95,
+        "gross_price": 20.17,
+        "image": "https://app.dream-print.de/images/mockups/12238/639293063288346087.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901382,
+        "pod_variant_id": 9014,
+        "color": "Cobalt",
+        "color_hex": "#374393",
+        "size": "XL",
+        "price": 16.95,
+        "gross_price": 20.17,
+        "image": "https://app.dream-print.de/images/mockups/12238/639293063471823990.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901380,
+        "pod_variant_id": 9013,
+        "color": "Cobalt",
+        "color_hex": "#374393",
+        "size": "L",
+        "price": 16.95,
+        "gross_price": 20.17,
+        "image": "https://app.dream-print.de/images/mockups/12238/639293063471823990.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901378,
+        "pod_variant_id": 9012,
+        "color": "Cobalt",
+        "color_hex": "#374393",
+        "size": "M",
+        "price": 16.95,
+        "gross_price": 20.17,
+        "image": "https://app.dream-print.de/images/mockups/12238/639293063471823990.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901376,
+        "pod_variant_id": 9011,
+        "color": "Cobalt",
+        "color_hex": "#374393",
+        "size": "S",
+        "price": 16.95,
+        "gross_price": 20.17,
+        "image": "https://app.dream-print.de/images/mockups/12238/639293063471823990.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901386,
+        "pod_variant_id": 9016,
+        "color": "Cobalt",
+        "color_hex": "#374393",
+        "size": "3XL",
+        "price": 16.95,
+        "gross_price": 20.17,
+        "image": "https://app.dream-print.de/images/mockups/12238/639293063471823990.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901384,
+        "pod_variant_id": 9015,
+        "color": "Cobalt",
+        "color_hex": "#374393",
+        "size": "2XL",
+        "price": 16.95,
+        "gross_price": 20.17,
+        "image": "https://app.dream-print.de/images/mockups/12238/639293063471823990.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901387,
+        "pod_variant_id": 8983,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "4XL",
+        "price": 16.95,
+        "gross_price": 20.17,
+        "image": "https://app.dream-print.de/images/mockups/12238/639293063288346087.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": false
+      }
+    ]
+  },
+  {
+    "id": 29100,
+    "pod_product_id": 177,
+    "title": "Allesfahrer OG Kinder-Shirt",
+    "description": "<p>Kinder-T-Shirt aus 100 % gekämmter, ringgesponnener Baumwolle (150 g/m²). Fashion Fit mit Rundhalsausschnitt in 1x1-Ripp-Strick, gleichfarbigem Nackenband und heraustrennbarem TearAway-Label. Maschinenwäsche bei 60 °C, trocknergeeignet.</p><p><br></p><p>Motiv Jocelyn Hampel, Topscorerin von Arminia Bielefeld.</p>",
+    "brand": "Fruit of the Loom",
+    "tags": [],
+    "main_image": "https://app.dream-print.de/images/mockups/12238/639292984445693309.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+    "variants": [
+      {
+        "id": 901329,
+        "pod_variant_id": 6290,
+        "color": "Navy",
+        "color_hex": "#051734",
+        "size": "104",
+        "price": 14.95,
+        "gross_price": 17.79,
+        "image": "https://app.dream-print.de/images/mockups/12238/639292984445693309.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901330,
+        "pod_variant_id": 6291,
+        "color": "Navy",
+        "color_hex": "#051734",
+        "size": "116",
+        "price": 14.95,
+        "gross_price": 17.79,
+        "image": "https://app.dream-print.de/images/mockups/12238/639292984445693309.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901331,
+        "pod_variant_id": 6292,
+        "color": "Navy",
+        "color_hex": "#051734",
+        "size": "128",
+        "price": 14.95,
+        "gross_price": 17.79,
+        "image": "https://app.dream-print.de/images/mockups/12238/639292984445693309.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901332,
+        "pod_variant_id": 6293,
+        "color": "Navy",
+        "color_hex": "#051734",
+        "size": "140",
+        "price": 14.95,
+        "gross_price": 17.79,
+        "image": "https://app.dream-print.de/images/mockups/12238/639292984445693309.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901333,
+        "pod_variant_id": 6294,
+        "color": "Navy",
+        "color_hex": "#051734",
+        "size": "152",
+        "price": 14.95,
+        "gross_price": 17.79,
+        "image": "https://app.dream-print.de/images/mockups/12238/639292984445693309.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 901334,
+        "pod_variant_id": 6295,
+        "color": "Navy",
+        "color_hex": "#051734",
+        "size": "164",
+        "price": 14.95,
+        "gross_price": 17.79,
+        "image": "https://app.dream-print.de/images/mockups/12238/639292984445693309.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": 29069,
+    "pod_product_id": 44,
+    "title": "Allesfahrer OG Shirt",
+    "description": "<p><br></p><ul><li>145 g/m²</li><li>100 % Baumwolle (Ash: 99 % Baumwolle / 1 % Viskose)</li><li>Einlaufvorbehandelte, ringgesponnene Baumwolle</li><li>STANDARD 100 by OEKO-TEX®</li></ul><p><br></p><p><strong>Größentabelle</strong></p><table style=\"width: 100%;\"><tbody><tr><td><p>Messung (Werte) in cm</p></td><td><p>XS</p></td><td><p>S</p></td><td><p>M</p></td><td><p>L</p></td><td><p>XL</p></td><td><p>XXL</p></td><td><p>3XL</p></td></tr><tr><td><p>Länge</p></td><td><p>68</p></td><td><p>70</p></td><td><p>72</p></td><td><p>74</p></td><td><p>76</p></td><td><p>78</p></td><td><p>80</p></td></tr><tr><td><p>Brustweite</p></td><td><p>47</p></td><td><p>50</p></td><td><p>53</p></td><td><p>56</p></td><td><p>59</p></td><td><p>62</p></td><td><p>65</p></td></tr></tbody></table><p><br></p><p><br></p><p><br></p><p>Motiv Jocelyn Hampel, Topscorerin von Arminia Bielefeld.</p>",
+    "brand": "B&C",
+    "tags": [],
+    "main_image": "https://app.dream-print.de/images/mockups/12238/639292289928242837.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+    "variants": [
+      {
+        "id": 900344,
+        "pod_variant_id": 867,
+        "color": "Navy",
+        "color_hex": "#051734",
+        "size": "XS",
+        "price": 14.95,
+        "gross_price": 17.79,
+        "image": "https://app.dream-print.de/images/mockups/12238/639292289928242837.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 900346,
+        "pod_variant_id": 864,
+        "color": "Navy",
+        "color_hex": "#051734",
+        "size": "M",
+        "price": 14.95,
+        "gross_price": 17.79,
+        "image": "https://app.dream-print.de/images/mockups/12238/639292289928242837.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 900345,
+        "pod_variant_id": 865,
+        "color": "Navy",
+        "color_hex": "#051734",
+        "size": "S",
+        "price": 14.95,
+        "gross_price": 17.79,
+        "image": "https://app.dream-print.de/images/mockups/12238/639292289928242837.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 900348,
+        "pod_variant_id": 866,
+        "color": "Navy",
+        "color_hex": "#051734",
+        "size": "XL",
+        "price": 14.95,
+        "gross_price": 17.79,
+        "image": "https://app.dream-print.de/images/mockups/12238/639292289928242837.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 900347,
+        "pod_variant_id": 863,
+        "color": "Navy",
+        "color_hex": "#051734",
+        "size": "L",
+        "price": 14.95,
+        "gross_price": 17.79,
+        "image": "https://app.dream-print.de/images/mockups/12238/639292289928242837.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 900349,
+        "pod_variant_id": 861,
+        "color": "Navy",
+        "color_hex": "#051734",
+        "size": "2XL",
+        "price": 14.95,
+        "gross_price": 17.79,
+        "image": "https://app.dream-print.de/images/mockups/12238/639292289928242837.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 900350,
+        "pod_variant_id": 862,
+        "color": "Navy",
+        "color_hex": "#051734",
+        "size": "3XL",
+        "price": 14.95,
+        "gross_price": 17.79,
+        "image": "https://app.dream-print.de/images/mockups/12238/639292289928242837.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": 28944,
+    "pod_product_id": 181,
+    "title": "Jocelyn Hampel Hoodie",
+    "description": "<p>Schwerer Oversize-Hoodie aus 440 g/m² Sweat-Material (70 % ringgesponnene Baumwolle, 30 % recyceltes Polyester, Obermaterial 100 % Baumwolle). Doppellagige Kapuze mit drei Segmenten ohne Kordelzüge, Kängurutasche mit Handy-Innentasche, gerippte Ärmelabschlüsse und Saum, gebürstetes Innenvlies. Maschinenwäsche bei 30 °C, trocknergeeignet.</p><p><br></p><p>Motiv Jocelyn Hampel, Topscorerin von Arminia Bielefeld. </p>",
+    "brand": "Just Hoods",
+    "tags": [],
+    "main_image": "https://app.dream-print.de/images/mockups/12238/639289975757281183.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+    "variants": [
+      {
+        "id": 896164,
+        "pod_variant_id": 6639,
+        "color": "Arctic White",
+        "color_hex": "#FFFFFF",
+        "size": "XXL",
+        "price": 30.21,
+        "gross_price": 35.95,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289975757281183.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896163,
+        "pod_variant_id": 6633,
+        "color": "Arctic White",
+        "color_hex": "#FFFFFF",
+        "size": "3XL",
+        "price": 30.21,
+        "gross_price": 35.95,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289975757281183.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896162,
+        "pod_variant_id": 6637,
+        "color": "Arctic White",
+        "color_hex": "#FFFFFF",
+        "size": "XL",
+        "price": 30.21,
+        "gross_price": 35.95,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289975757281183.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896161,
+        "pod_variant_id": 6634,
+        "color": "Arctic White",
+        "color_hex": "#FFFFFF",
+        "size": "L",
+        "price": 30.21,
+        "gross_price": 35.95,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289975757281183.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896160,
+        "pod_variant_id": 6635,
+        "color": "Arctic White",
+        "color_hex": "#FFFFFF",
+        "size": "M",
+        "price": 30.21,
+        "gross_price": 35.95,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289975757281183.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896158,
+        "pod_variant_id": 6638,
+        "color": "Arctic White",
+        "color_hex": "#FFFFFF",
+        "size": "XS",
+        "price": 30.21,
+        "gross_price": 35.95,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289975757281183.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896159,
+        "pod_variant_id": 6636,
+        "color": "Arctic White",
+        "color_hex": "#FFFFFF",
+        "size": "S",
+        "price": 30.21,
+        "gross_price": 35.95,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289975757281183.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": 28943,
+    "pod_product_id": 194,
+    "title": "Arminia Logo Cap",
+    "description": "<p>Strukturierte 5-Panel-Baseball-Cap aus Twill mit 80 % Bio-Baumwolle und 20 % recycelter Baumwolle. Verstärkte Front aus recyceltem Buckram, gebogener Schirm und Klettverschluss zum Verstellen. One Size, Handwäsche.</p>",
+    "brand": "Atlantis",
+    "tags": [],
+    "main_image": "https://app.dream-print.de/images/mockups/12238/639289974511484129.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+    "variants": [
+      {
+        "id": 896157,
+        "pod_variant_id": 11414,
+        "color": "Black",
+        "color_hex": "#071120",
+        "size": "One Size",
+        "price": 13.4,
+        "gross_price": 15.95,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289974511484129.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": false
+      }
+    ]
+  },
+  {
+    "id": 28942,
+    "pod_product_id": 143,
+    "title": "AFA Sweater",
+    "description": "<h5>Produktdetails</h5><p><br></p><ul><li>280 g/m²</li><li>80% Baumwolle / 20% Polyester</li><li>OEKO-TEX® STANDARD 100: 2402037 Centexbel</li><li>Einlaufvorbehandelt</li></ul><p><br></p><table style=\"width: 100%;\"><tbody><tr><td><p>Messung (Werte) in cm</p></td><td><p>XS</p></td><td><p>S</p></td><td><p>M</p></td><td><p>L</p></td><td><p>XL</p></td><td><p>XXL</p></td><td><p>3XL</p></td></tr><tr><td><p>Länge</p></td><td><p>69</p></td><td><p>71</p></td><td><p>73</p></td><td><p>75</p></td><td><p>77</p></td><td><p>79</p></td><td><p>80</p></td></tr><tr><td><p>Brustweite</p></td><td><p>50</p></td><td><p>53</p></td><td><p>56,5</p></td><td><p>60</p></td><td><p>63,5</p></td><td><p>67</p></td><td><p>71</p></td></tr></tbody></table>",
+    "brand": "B&C",
+    "tags": [],
+    "main_image": "https://app.dream-print.de/images/mockups/12238/639289973445544957.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+    "variants": [
+      {
+        "id": 896152,
+        "pod_variant_id": 3429,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "M",
+        "price": 21.01,
+        "gross_price": 25,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289973445544957.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896155,
+        "pod_variant_id": 3426,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "2XL",
+        "price": 21.01,
+        "gross_price": 25,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289973445544957.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896156,
+        "pod_variant_id": 3427,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "3XL",
+        "price": 21.01,
+        "gross_price": 25,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289973445544957.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896150,
+        "pod_variant_id": 3432,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "XS",
+        "price": 21.01,
+        "gross_price": 25,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289973445544957.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896151,
+        "pod_variant_id": 3430,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "S",
+        "price": 21.01,
+        "gross_price": 25,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289973445544957.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896153,
+        "pod_variant_id": 3428,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "L",
+        "price": 21.01,
+        "gross_price": 25,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289973445544957.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896154,
+        "pod_variant_id": 3431,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "XL",
+        "price": 21.01,
+        "gross_price": 25,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289973445544957.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": 28941,
+    "pod_product_id": 94,
+    "title": "Jocelyn Hampel T-Shirt",
+    "description": "<ul><li>100% Baumwolle</li><li>240 g/m²</li><li>STANDARD 100 by OEKO-TEX®</li><li>Loose Fit (weiter geschnitten)</li><li>Überlänge (70 cm+)</li><li>Dickes, weiches Baumwollgewebe</li></ul><p><br></p><p><strong>Größentabelle</strong></p><table style=\"width: 100%;\"><tbody><tr><td><p>Messung (Werte) in cm</p></td><td><p>XS</p></td><td><p>S</p></td><td><p>M</p></td><td><p>L</p></td><td><p>XL</p></td><td><p>XXL</p></td></tr><tr><td><p>Länge</p></td><td><p>74</p></td><td><p>76</p></td><td><p>78</p></td><td><p>80</p></td><td><p>82</p></td><td><p>84</p></td></tr><tr><td><p>Brustweite</p></td><td><p>54</p></td><td><p>57</p></td><td><p>60</p></td><td><p>63</p></td><td><p>66</p></td><td><p>69</p></td></tr><tr><td><p>Saumweite</p></td><td><p>52</p></td><td><p>55</p></td><td><p>58</p></td><td><p>61</p></td><td><p>64</p></td><td><p>67</p></td></tr><tr><td><p>Ärmellänge</p></td><td><p>20</p></td><td><p>21</p></td><td><p>22</p></td><td><p>23</p></td><td><p>24</p></td><td><p>25</p></td></tr></tbody></table>",
+    "brand": "Build Your Brand",
+    "tags": [],
+    "main_image": "https://app.dream-print.de/images/mockups/12238/639289972499441509.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+    "variants": [
+      {
+        "id": 896149,
+        "pod_variant_id": 4318,
+        "color": "White",
+        "color_hex": "#ffffff",
+        "size": "5XL",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289972499441509.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896148,
+        "pod_variant_id": 4317,
+        "color": "White",
+        "color_hex": "#ffffff",
+        "size": "4XL",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289972499441509.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896147,
+        "pod_variant_id": 4316,
+        "color": "White",
+        "color_hex": "#ffffff",
+        "size": "3XL",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289972499441509.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896142,
+        "pod_variant_id": 1092,
+        "color": "White",
+        "color_hex": "#ffffff",
+        "size": "S",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289972499441509.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896146,
+        "pod_variant_id": 1089,
+        "color": "White",
+        "color_hex": "#ffffff",
+        "size": "2XL",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289972499441509.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896145,
+        "pod_variant_id": 1093,
+        "color": "White",
+        "color_hex": "#ffffff",
+        "size": "XL",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289972499441509.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896144,
+        "pod_variant_id": 1090,
+        "color": "White",
+        "color_hex": "#ffffff",
+        "size": "L",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289972499441509.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896143,
+        "pod_variant_id": 1091,
+        "color": "White",
+        "color_hex": "#ffffff",
+        "size": "M",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289972499441509.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896141,
+        "pod_variant_id": 1094,
+        "color": "White",
+        "color_hex": "#ffffff",
+        "size": "XS",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289972499441509.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": 28940,
+    "pod_product_id": 86,
+    "title": "FldsF Kinder Hoodie",
+    "description": "<ul><li>280 g/m²</li><li>80 % Baumwolle / 20 % Polyester </li><li>Regular (normal geschnitten)</li></ul><p><br></p><p><strong>Größentabelle</strong></p><table style=\"width: 100%;\"><tbody><tr><td><p>Messung (Werte) in cm</p></td><td><p>80-92</p></td><td><p>98-104</p></td><td><p>110-116</p></td><td><p>122-128</p></td><td><p>134-146</p></td><td><p>152-164</p></td></tr><tr><td><p>Länge</p></td><td><p>42</p></td><td><p>44</p></td><td><p>48</p></td><td><p>52</p></td><td><p>57</p></td><td><p>62</p></td></tr><tr><td><p>Brustweite</p></td><td><p>37</p></td><td><p>39</p></td><td><p>41</p></td><td><p>43</p></td><td><p>46</p></td><td><p>49</p></td></tr><tr><td><p>Ärmellänge</p></td><td><p>35</p></td><td><p>37</p></td><td><p>40</p></td><td><p>43</p></td><td><p>47</p></td><td><p>51</p></td></tr></tbody></table>",
+    "brand": "Just Hoods",
+    "tags": [],
+    "main_image": "https://app.dream-print.de/images/mockups/12238/639289971536789040.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+    "variants": [
+      {
+        "id": 896139,
+        "pod_variant_id": 936,
+        "color": "Deep Black",
+        "color_hex": "#000000",
+        "size": "Kids 152-164",
+        "price": 22.27,
+        "gross_price": 26.5,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289971536789040.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896140,
+        "pod_variant_id": 937,
+        "color": "Deep Black",
+        "color_hex": "#000000",
+        "size": "Kids 80-92",
+        "price": 22.27,
+        "gross_price": 26.5,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289971536789040.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896137,
+        "pod_variant_id": 934,
+        "color": "Deep Black",
+        "color_hex": "#000000",
+        "size": "Kids 122-128",
+        "price": 22.27,
+        "gross_price": 26.5,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289971536789040.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896138,
+        "pod_variant_id": 935,
+        "color": "Deep Black",
+        "color_hex": "#000000",
+        "size": "Kids 134-146",
+        "price": 22.27,
+        "gross_price": 26.5,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289971536789040.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896135,
+        "pod_variant_id": 938,
+        "color": "Deep Black",
+        "color_hex": "#000000",
+        "size": "Kids 98-104",
+        "price": 22.27,
+        "gross_price": 26.5,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289971536789040.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896136,
+        "pod_variant_id": 933,
+        "color": "Deep Black",
+        "color_hex": "#000000",
+        "size": "Kids 110-116",
+        "price": 22.27,
+        "gross_price": 26.5,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289971536789040.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": 28939,
+    "pod_product_id": 162,
+    "title": "FldsF Kinder T-Shirt",
+    "description": "<ul><li>185 g/m²</li><li>100 % Baumwolle</li><li>Einlaufvorbehandelte, ringgesponnene Baumwolle</li><li>STANDARD 100 by OEKO-TEX®</li></ul><p><br></p><p>Modernes T-Shirt mit geschlechtsneutralem Design. Weich und bequem beim Tragen.</p><p><strong>Größentabelle</strong></p><table style=\"width: 100%;\"><tbody><tr><td><p>Messung (Werte in cm)</p></td><td><p>98 - 104</p></td><td><p>110 - 116</p></td><td><p>122 - 128</p></td><td><p>134 - 146</p></td><td><p>152 - 164</p></td></tr><tr><td><p>Länge</p></td><td><p>45</p></td><td><p>48</p></td><td><p>51</p></td><td><p>55</p></td><td><p>58</p></td></tr><tr><td><p>Brustweite</p></td><td><p>30</p></td><td><p>33</p></td><td><p>36</p></td><td><p>40</p></td><td><p>43</p></td></tr></tbody></table>",
+    "brand": "B&C",
+    "tags": [],
+    "main_image": "https://app.dream-print.de/images/mockups/12238/639289970503773315.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+    "variants": [
+      {
+        "id": 896130,
+        "pod_variant_id": 3978,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "Kids 98-104",
+        "price": 15.08,
+        "gross_price": 17.95,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289970503773315.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896131,
+        "pod_variant_id": 3974,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "Kids 110-116",
+        "price": 15.08,
+        "gross_price": 17.95,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289970503773315.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896132,
+        "pod_variant_id": 3975,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "Kids 122-128",
+        "price": 15.08,
+        "gross_price": 17.95,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289970503773315.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896133,
+        "pod_variant_id": 3976,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "Kids 134-146",
+        "price": 15.08,
+        "gross_price": 17.95,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289970503773315.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896134,
+        "pod_variant_id": 3977,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "Kids 152-164",
+        "price": 15.08,
+        "gross_price": 17.95,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289970503773315.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": 28938,
+    "pod_product_id": 142,
+    "title": "FldsF Zipper",
+    "description": "<h5>Produktdetails</h5><p><br></p><ul><li>280 g/m²</li><li>80% Baumwolle (Bio oder in Umstellung, OCS Blended) / 20% recycelter Polyester</li><li>OEKO-TEX® STANDARD 100: 2402037 Centexbel</li><li>Reißverschluss aus Metall</li></ul>",
+    "brand": "B&C",
+    "tags": [],
+    "main_image": "https://app.dream-print.de/images/mockups/12238/639289969475014754.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+    "variants": [
+      {
+        "id": 896127,
+        "pod_variant_id": 3368,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "XL",
+        "price": 33.61,
+        "gross_price": 40,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289969475014754.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896128,
+        "pod_variant_id": 3363,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "2XL",
+        "price": 33.61,
+        "gross_price": 40,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289969475014754.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896125,
+        "pod_variant_id": 3366,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "M",
+        "price": 33.61,
+        "gross_price": 40,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289969475014754.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896124,
+        "pod_variant_id": 3367,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "S",
+        "price": 33.61,
+        "gross_price": 40,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289969475014754.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896129,
+        "pod_variant_id": 3364,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "3XL",
+        "price": 33.61,
+        "gross_price": 40,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289969475014754.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896126,
+        "pod_variant_id": 3365,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "L",
+        "price": 33.61,
+        "gross_price": 40,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289969475014754.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": 28937,
+    "pod_product_id": 54,
+    "title": "FldsF Hoodie",
+    "description": "<ul><li>280 g/m² (Weiß - 260 g/m²)</li><li>80 % Baumwolle, 20 % Polyester</li><li>Innen angeraut, Langarm, mit Kapuze</li><li>Reguläre (normal geschnitten) Passform</li><li>STANDARD 100 by OEKO-TEX®</li></ul><p><br></p><p><strong>Größentabelle</strong></p><table style=\"width: 100%;\"><tbody><tr><td><p>Messung (Werte) in cm</p></td><td><p>S</p></td><td><p>M</p></td><td><p>L</p></td><td><p>XL</p></td><td><p>XXL</p></td></tr><tr><td><p>Länge</p></td><td><p>67</p></td><td><p>70</p></td><td><p>73</p></td><td><p>76</p></td><td><p>79</p></td></tr><tr><td><p>Brustweite</p></td><td><p>51</p></td><td><p>56</p></td><td><p>61</p></td><td><p>63,5</p></td><td><p>68,5</p></td></tr></tbody></table>",
+    "brand": "Fruit of the Loom",
+    "tags": [],
+    "main_image": "https://app.dream-print.de/images/mockups/12238/639289967990943977.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+    "variants": [
+      {
+        "id": 896120,
+        "pod_variant_id": 356,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "2XL",
+        "price": 29.41,
+        "gross_price": 35,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289967990943977.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896121,
+        "pod_variant_id": 13387,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "3XL",
+        "price": 29.41,
+        "gross_price": 35,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289967990943977.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896118,
+        "pod_variant_id": 358,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "L",
+        "price": 29.41,
+        "gross_price": 35,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289967990943977.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896119,
+        "pod_variant_id": 361,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "XL",
+        "price": 29.41,
+        "gross_price": 35,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289967990943977.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896116,
+        "pod_variant_id": 360,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "S",
+        "price": 29.41,
+        "gross_price": 35,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289967990943977.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896117,
+        "pod_variant_id": 359,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "M",
+        "price": 29.41,
+        "gross_price": 35,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289967990943977.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896122,
+        "pod_variant_id": 13388,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "4XL",
+        "price": 29.41,
+        "gross_price": 35,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289967990943977.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896123,
+        "pod_variant_id": 13389,
+        "color": "Black",
+        "color_hex": "#1C1C1C",
+        "size": "5XL",
+        "price": 29.41,
+        "gross_price": 35,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289967990943977.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "id": 28936,
+    "pod_product_id": 187,
+    "title": "FldsF T-Shirt",
+    "description": "<ul><li>180 g/m²</li><li>100 % Baumwolle</li><li>Rundhals mit Rippkragen, Nacken- und Schulterband</li><li>Schlauchförmig gearbeitet, ohne Seitennähte</li><li>Regular Passform (normal geschnitten)</li></ul><p><br></p><p><strong>Größentabelle</strong></p><table style=\"width: 100%;\"><thead><tr><th><p>Messung (Werte) in cm</p></th><th><p>S</p></th><th><p>M</p></th><th><p>L</p></th><th><p>XL</p></th><th><p>2XL</p></th><th><p>3XL</p></th><th><p>4XL</p></th><th><p>5XL</p></th></tr></thead><tbody><tr><td><p>Länge</p></td><td><p>71</p></td><td><p>74</p></td><td><p>76</p></td><td><p>79</p></td><td><p>81</p></td><td><p>84</p></td><td><p>86</p></td><td><p>89</p></td></tr><tr><td><p>Brustweite</p></td><td><p>46</p></td><td><p>51</p></td><td><p>56</p></td><td><p>61</p></td><td><p>66</p></td><td><p>71</p></td><td><p>76</p></td><td><p>81</p></td></tr></tbody></table>",
+    "brand": "Gildan",
+    "tags": [],
+    "main_image": "https://app.dream-print.de/images/mockups/12238/639289966820296240.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+    "variants": [
+      {
+        "id": 896112,
+        "pod_variant_id": 8981,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "2XL",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289966820296240.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896113,
+        "pod_variant_id": 8982,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "3XL",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289966820296240.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": false
+      },
+      {
+        "id": 896110,
+        "pod_variant_id": 8979,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "L",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289966820296240.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896111,
+        "pod_variant_id": 8980,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "XL",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289966820296240.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896108,
+        "pod_variant_id": 8977,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "S",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289966820296240.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896109,
+        "pod_variant_id": 8978,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "M",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289966820296240.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      },
+      {
+        "id": 896114,
+        "pod_variant_id": 8983,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "4XL",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289966820296240.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": false
+      },
+      {
+        "id": 896115,
+        "pod_variant_id": 8984,
+        "color": "Black",
+        "color_hex": "#25282B",
+        "size": "5XL",
+        "price": 16.81,
+        "gross_price": 20,
+        "image": "https://app.dream-print.de/images/mockups/12238/639289966820296240.jpg?B70EF25CBAB388229DE5C5A5CDC9B005",
+        "in_stock": true
+      }
+    ]
+  }
+]
