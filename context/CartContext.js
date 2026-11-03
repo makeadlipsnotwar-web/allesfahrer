@@ -3,6 +3,9 @@ import { createContext, useContext, useState, useEffect } from 'react';
 
 const CartContext = createContext();
 
+// Hier kannst du die Versandkostenpauschale anpassen (z. B. 4.95)
+const SHIPPING_COST = 4.99;
+
 export function CartProvider({ children }) {
   const [cart, setCart] = useState([]);
 
@@ -33,8 +36,11 @@ export function CartProvider({ children }) {
       ? product.images[0] 
       : (product.image || "/logo cap.jpg");
 
+    // Falls Produktvarianten oder Farben gewählt wurden, diese im Warenkorb-Item eindeutig halten
+    const selectedColor = product.selectedColor || null;
+
     const existingIndex = cart.findIndex(
-      item => String(item.id) === String(product.id) && item.size === size
+      item => String(item.id) === String(product.id) && item.size === size && item.selectedColor === selectedColor
     );
 
     let updatedCart;
@@ -50,6 +56,7 @@ export function CartProvider({ children }) {
           price: Number(product.price),
           image: itemImage,
           size: size || 'M',
+          selectedColor: selectedColor,
           quantity: quantity
         }
       ];
@@ -66,11 +73,25 @@ export function CartProvider({ children }) {
     updateCart([]);
   };
 
-  const totalAmount = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+  // Berechnungen für Zwischensumme, Versand und Gesamtsumme
+  const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
   const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+  
+  // Versandkosten fallen nur an, wenn sich auch Artikel im Warenkorb befinden
+  const shippingCost = totalItems > 0 ? SHIPPING_COST : 0;
+  const totalAmount = subtotal + shippingCost;
 
   return (
-    <CartContext.Provider value={{ cart, addToCart, removeFromCart, clearCart, totalAmount, totalItems }}>
+    <CartContext.Provider value={{ 
+      cart, 
+      addToCart, 
+      removeFromCart, 
+      clearCart, 
+      subtotal, 
+      shippingCost, 
+      totalAmount, 
+      totalItems 
+    }}>
       {children}
     </CartContext.Provider>
   );

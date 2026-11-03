@@ -5,13 +5,12 @@ import Link from 'next/link';
 import { PayPalScriptProvider, PayPalButtons } from '@paypal/react-paypal-js';
 
 export default function CartPage() {
-  const { cart, removeFromCart, clearCart, totalAmount } = useCart();
+  const { cart, removeFromCart, clearCart, subtotal, shippingCost, totalAmount } = useCart();
   const [address, setAddress] = useState({ name: '', street: '', zip: '', city: '' });
   const [addressSaved, setAddressSaved] = useState(false);
   const [status, setStatus] = useState(null);
 
-  // PayPal Client ID (Trage hier später deine Client ID aus dem PayPal Developer Dashboard ein)
-  // Im Testmodus nutzt man den Sandbox-Client, für Live den Live-Client
+  // PayPal Client ID (aus Umgebungsvariablen)
   const paypalClientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || "test";
 
   const handleAddressSubmit = (e) => {
@@ -65,12 +64,14 @@ export default function CartPage() {
               />
               <div>
                 <div style={{ fontWeight: '900', color: '#000000', fontSize: '14px', textTransform: 'uppercase' }}>{item.name}</div>
-                <div style={{ color: '#475569', fontSize: '12px', marginTop: '2px' }}>GRÖSSE: {item.size} | MENGE: {item.quantity}</div>
+                <div style={{ color: '#475569', fontSize: '12px', marginTop: '2px' }}>
+                  GRÖSSE: {item.size} {item.selectedColor ? `| FARBE: ${item.selectedColor}` : ''} | MENGE: {item.quantity}
+                </div>
               </div>
             </div>
 
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-              <span style={{ fontWeight: '900', color: '#002D62', fontSize: '16px' }}>{item.price * item.quantity} €</span>
+              <span style={{ fontWeight: '900', color: '#002D62', fontSize: '16px' }}>{(item.price * item.quantity).toFixed(2)} €</span>
               <button 
                 onClick={() => removeFromCart(idx)} 
                 style={{ background: '#000000', color: '#ffffff', border: 'none', padding: '4px 8px', cursor: 'pointer', fontWeight: '900', fontSize: '11px', textTransform: 'uppercase' }}
@@ -81,8 +82,17 @@ export default function CartPage() {
           </div>
         ))}
 
-        <div style={{ textAlign: 'right', marginTop: '16px', fontSize: '18px', fontWeight: '900', color: '#002D62' }}>
-          GESAMTSUMME: {totalAmount} €
+        {/* Preisaufschlüsselung (Zwischensumme, Versand, Gesamt) */}
+        <div style={{ marginTop: '20px', borderTop: '2px solid #000000', paddingTop: '12px', display: 'flex', flexDirection: 'column', gap: '6px', textAlign: 'right' }}>
+          <div style={{ fontSize: '14px', color: '#334155' }}>
+            Zwischensumme: <strong>{subtotal.toFixed(2)} €</strong>
+          </div>
+          <div style={{ fontSize: '14px', color: '#334155' }}>
+            Versandkosten: <strong>{shippingCost.toFixed(2)} €</strong>
+          </div>
+          <div style={{ fontSize: '18px', fontWeight: '900', color: '#002D62', marginTop: '4px' }}>
+            GESAMTSUMME: {totalAmount.toFixed(2)} €
+          </div>
         </div>
       </div>
 
@@ -108,7 +118,7 @@ export default function CartPage() {
       ) : (
         <div style={{ borderTop: '3px solid #000000', paddingTop: '20px' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px', background: '#f8fafc', padding: '10px', border: '2px solid #000' }}>
-            <span style={{ fontSize: '12px' }}><strong>Lademodus:</strong> {address.name}, {address.street}, {address.zip} {address.city}</span>
+            <span style={{ fontSize: '12px' }}><strong>Lieferadresse:</strong> {address.name}, {address.street}, {address.zip} {address.city}</span>
             <button onClick={() => setAddressSaved(false)} style={{ background: 'none', border: 'none', textDecoration: 'underline', cursor: 'pointer', fontWeight: 'bold', fontSize: '11px' }}>ÄNDERN</button>
           </div>
 
@@ -124,7 +134,7 @@ export default function CartPage() {
                   purchase_units: [
                     {
                       amount: {
-                        value: totalAmount.toFixed(2),
+                        value: totalAmount.toFixed(2), // Übergibt den korrekten Endbetrag inkl. Versand an PayPal
                       },
                     },
                   ],
@@ -133,7 +143,6 @@ export default function CartPage() {
               onApprove={async (data, actions) => {
                 const details = await actions.order.capture();
                 
-                // Sobald PayPal das Geld sicher verbucht hat, rufen wir unseren Backend-Endpoint auf
                 const res = await fetch('/api/order', {
                   method: 'POST',
                   headers: { 'Content-Type': 'application/json' },
@@ -146,7 +155,7 @@ export default function CartPage() {
                       price: item.price
                     })),
                     paypalOrderId: details.id,
-                    paymentStatus: details.status // "COMPLETED"
+                    paymentStatus: details.status
                   })
                 });
 
