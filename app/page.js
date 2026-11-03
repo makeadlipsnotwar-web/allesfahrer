@@ -11,7 +11,9 @@ const CUSTOM_IMAGES = {
   "FldsF Kinder T-Shirt": ["/kinder shirt.jpg"],
   "Jocelyn Hampel Hoodie": ["/hampel hoodie.jpg"],
   "Arminia Logo Cap": ["/logo cap.jpg"],
-  "Jocelyn Hampel T-Shirt": ["/hampel shirt.jpg"]
+  "Jocelyn Hampel T-Shirt": ["/hampel shirt.jpg"],
+  "Allesfahrer OG Shirt": ["/og shirt vorne.jpg"],
+  "Allesfahrer OG Kinder-Shirt": ["/og kind vorne.jpg"]
 };
 
 export default function HomePage() {

@@ -12,7 +12,9 @@ const CUSTOM_IMAGES = {
   "FldsF Kinder T-Shirt": ["/kinder shirt.jpg", "/kinder shirt hinten.jpg"],
   "Jocelyn Hampel Hoodie": ["/hampel hoodie.jpg"],
   "Arminia Logo Cap": ["/logo cap.jpg"],
-  "Jocelyn Hampel T-Shirt": ["/hampel shirt.jpg"]
+  "Jocelyn Hampel T-Shirt": ["/hampel shirt.jpg"],
+  "Allesfahrer OG Shirt": ["/og shirt vorne.jpg", "/og shirt hinten.jpg"],
+  "Allesfahrer OG Kinder-Shirt": ["/og kind vorne.jpg", "og kind hinten.jpg"]
 };
 
 const SIZES = ['S', 'M', 'L', 'XL', 'XXL'];

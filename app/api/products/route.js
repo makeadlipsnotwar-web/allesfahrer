@@ -1,5 +1,9 @@
 import { NextResponse } from 'next/server';
 
+// Erzwingt, dass die Route niemals gecacht wird:
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 export async function GET() {
   try {
     const apiToken = process.env.DREAMPRINT_API_KEY;
@@ -7,6 +11,7 @@ export async function GET() {
 
     const response = await fetch('https://api.dream-print.de/v1/shop/products', {
       method: 'GET',
+      cache: 'no-store', // Verhindert Browser- und Server-Caching
       headers: {
         'Authorization': `Bearer ${apiToken.trim()}`,
         'X-DreamPrint-Shop-Id': shopId.trim(),
@@ -15,19 +20,18 @@ export async function GET() {
     });
 
     const data = await response.json();
+    console.log("--> DreamPrint API Response (Anzahl Artikel):", data.length || data.products?.length);
+
     const rawList = Array.isArray(data) ? data : (data.products || data.items || data.data || []);
 
     const products = rawList.map((item, index) => {
-      // Preis ermitteln (entweder direkt oder aus den Varianten)
       let price = item.gross_price || item.price || item.retail_price;
       if (!price && item.variants && item.variants.length > 0) {
         price = item.variants[0].gross_price || item.variants[0].price;
       }
 
-      // Bild primär aus den Varianten ziehen (da dort laut deinem JSON das Bild liegt)
       let image = item.image || item.image_url;
       if (!image && item.variants && item.variants.length > 0) {
-        // Suche die erste Variante mit einem Bild
         const variantWithImage = item.variants.find(v => v.image);
         image = variantWithImage ? variantWithImage.image : item.variants[0].image;
       }
@@ -43,6 +47,7 @@ export async function GET() {
     return NextResponse.json({ success: true, products });
 
   } catch (error) {
+    console.error("Fehler beim Laden der Produkte:", error);
     return NextResponse.json({ error: 'Serverfehler' }, { status: 500 });
   }
 }
